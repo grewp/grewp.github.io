@@ -8,6 +8,16 @@ h1, h2, h3, h4, h5 {
   font-family: helvetica;
 }
 
+nav {
+  color: #58C7C3;
+}
+
+nav ul {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  padding: 0;
+}
+
 nav a {
   color: #58C7C3;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';

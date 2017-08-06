@@ -1,0 +1,106 @@
+.info {
+  display: flex;
+}
+
+.personalInfo {
+  flex-grow: 3;
+  max-width: 70%;
+}
+
+.personalInfo div {
+  padding: .5rem;
+}
+
+.personalInfo h3 {
+  font-size: 3rem;
+  color: #58C7C3;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+}
+
+.personalInfo h5 {
+  margin: 0 0 0 10rem;
+  color: #58C7C3;
+}
+
+p {
+  color: grey;
+  line-height: 1.375rem;
+  text-indent: 1.25rem;
+  padding: .375rem;
+  margin: .5rem 0rem;
+}
+
+.contactInfo {
+  flex-grow: 2;
+  font-family: helvetica;
+  font-size: 2rem;
+  color: #C75DB1;
+}
+
+.contactInfo span {
+  font-size: 3rem;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.contactInfo div {
+  padding: 1rem;
+}
+
+.contactInfo ul {
+  list-style: none;
+  padding: 0 0 0 1rem;
+  margin: .5rem 0 0 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: white;
+  background-color: #0C4745;
+  padding: .5rem;
+}
+
+.projectsList {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.projectsList a {
+  color: #0C4745;
+  font-size: 2rem;
+  flex-grow: 1;
+  margin: .75rem;
+}
+
+.projectsList a:hover {
+
+}
+
+.moreInfo {
+  /*might want to move this inside a seperate wrapper
+  for better control*/
+  padding: .5rem;
+  /*color: #0C4745*/
+}
+
+.moreInfo h3 {
+  font-size: 2rem;
+}
+
+.moreInfo div {
+  margin-left: 1rem;
+  margin-top: .75rem;
+}
+
+.moreInfo span {
+  margin-left: 1rem;
+}
+
+.moreInfo h5 {
+  margin-bottom: .375rem;
+}
+
+.moreInfo ul {
+  margin: 0 0 .5rem 0;
+}
