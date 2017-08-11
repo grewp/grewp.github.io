@@ -82,6 +82,27 @@ h2 {
   for better control*/
   padding: .5rem;
   /*color: #0C4745*/
+
+}
+
+.moreInfo .wrapper {
+  display: flex;
+}
+
+.moreInfo h5 {
+  font-size: 30px;
+}
+
+.moreInfo ul {
+  list-style: none;
+}
+
+.moreInfo .right {
+  margin-left: 5rem;
+}
+
+.right li {
+  font-size: 20px;
 }
 
 .moreInfo h3 {
