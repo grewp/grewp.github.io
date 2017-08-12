@@ -14,7 +14,7 @@
 }
 
 .personalInfo h3 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .contactInfo {
@@ -50,7 +50,7 @@
 }
 
 .contactInfo a:hover {
-  color: white;
+  color: #a6a7a7;
   text-decoration: none;
 }
 
@@ -70,18 +70,14 @@
   font-size: 30px;
 }
 
-.moreInfo ul {
-  list-style: none;
-}
-
 .moreInfo .right {
   margin-left: 5rem;
 }
 
-.left {
-  height: 200px;
+.left h5 {
   color: #800029;
   background-color: rgb(240, 238, 222);
+  padding-left: .5rem;
 }
 
 .left ul {
@@ -89,8 +85,22 @@
   color: white;
 }
 
+.left ul {
+  margin: 0 0 .5rem 0;
+  font-family: helvetica;
+  padding-left: 2rem;
+}
+
 .right li {
   font-size: 20px;
+}
+
+.right h3 {
+  margin-top: 2.5rem;
+}
+
+.right .expCard:first-child h3 {
+  margin-top: 0;
 }
 
 .moreInfo h3 {
@@ -105,13 +115,12 @@
   margin-bottom: .375rem;
 }
 
-.moreInfo ul {
-  margin: 0 0 .5rem 0;
-}
+
 
 .expCard span {
   margin-left: 1rem;
-  color: white
+  color: white;
+  font-family: helvetica;
 }
 
 .expCard p {
@@ -125,16 +134,23 @@
 
 .expCard p:first-of-type {
   margin-top: .75rem;
+  padding-top: .75rem;
 }
 
 .expCard p:last-child {
   margin-bottom: .5rem;
+  padding-bottom: 1rem;
 }
 
-.imgPlaceholder {
-  /*display: inline;*/
-  height: 200px;
+.expCard p a {
+  color: #ef5b8a;
+}
+
+.imgWrapper {
+  background-color: #f0eede;
+}
+
+.imgWrapper img {
   width: 100%;
-  background-color: grey;
-  margin-left: 0;
+  opacity: .90;
 }

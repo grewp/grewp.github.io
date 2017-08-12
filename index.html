@@ -9,11 +9,11 @@ title: Homepage
 			<p>I’m a versatile Front-End Engineer with two years experience working in web development. As someone
 				with a strong understanding of design principles and back-end architecture, I can effectively bridge
 				the gap between developers and designers, making me a strong asset to any team and an effective communicator.</p>
-			<p>I recently graduated from the University of Pennsylvania, where I received my Bachelors in Mathematics,
-				but discovered a love of web development and subsequently honed my skills as a teaching assistant for CIS 197.
-				I cut my teeth in development building The Moviegoer and leveraged my technical background to inform design
+			<p>I recently graduated from the University of Pennsylvania, where I received my bachelor's in mathematics,
+				but while there discovered a love of web development and honed my skills as a teaching assistant for <a href='#CIS197'>CIS 197</a>.
+				I cut my teeth in development building <a href='#THEMOVIEGOER'>The Moviegoer</a>, where I leveraged my technical background to inform design
 				decisions through data analysis.</p>
-			<p>Currently I am a Product Engineering intern at data.world, working in a cutting edge web stack to develop
+			<p>Currently I am a Product Engineering intern at <a href='#DATADOTWORLD'>data.world</a>, working on a cutting edge web stack to develop
 				next generation data discovery and collaboration tools.</p>
 		</div>
 	</div>
@@ -23,7 +23,8 @@ title: Homepage
 			<ul>
 				<li><a href='https://www.linkedin.com/in/bradpettigrew/' target='_blank'>LinkedIn</a></li>
 				<li><a href='https://www.github.com/grewp' target='_blank'>Github</a></li>
-				<li>Email</li>
+				<li><a href='https://medium.com/@bradpettigrew' target='_blank'>Medium</a></li>
+				<li style='display: none'>Email</li>
 			</ul>
 		</div>
 	</div>
@@ -60,34 +61,36 @@ title: Homepage
 		</div>
 		<div class='right'>
 				<div class='expCard'>
-					<h3>data.world</h3>
+					<a name='DATADOTWORLD'><h3>data.world</h3>
 					<span>Product Engineering Intern · 06.17-09.17</span>
-					<p>data.world is a small startup based out of Austin, Texas building the github for data.
+					<p><a href='http://data.world' target='_blank'>data.world</a> is a small startup based out of Austin, Texas building a platform for collaborative data analysis.
 						As an intern for data.world, I’ve become adept in a number of cutting edge technologies,
-						including es6/7, functional programming patterns, and sophisticated REST design, and I’ve
+						including ES6/7, functional programming patterns, and sophisticated REST design. Further, I’ve
 						discovered a love for working in small, fast paced teams shipping new features on a weekly basis.</p>
-					<p>My largest contribution to the company was the implementation of the Data Inspector, which I developed
-						 to completion from the design mocks and data endpoints to completed product. I architected the component
+					<p>My largest contribution to the company has been the implementation of the Data Inspector, which I developed
+						 to completion from the design mocks and data endpoints to the finished product. I architected the component
 						  using a functional design philosophy so as to have the most robust support for future extensibility
 							and carefully integrated the source code with our current type system to optimally support refactoring.
 							Additionally, I developed an extensive set of tests using Jest and Enzyme to further support maintainability.
-							 Beyond engineering, the feature has added tremendous business value for our current users, which we have
-							 found from quick feedback by the community, and which I have evangelized in an article on the team’s engineering blog.</p>
-					<div class='imgPlaceholder'></div>
+							 Beyond engineering, the feature has added tremendous business value for our current users, which I have
+							 evangelized in <a href='https://meta.data.world/introducing-the-data-inspector-9eff94ac6b8b' target='_blank'>an article</a> on the team’s engineering blog.</p>
+					<div class='imgWrapper'>
+						<img src='/assets/img/data-inspector.png'>
+					</div>
 					<p>Additionally, I built a number of other substantial features including a schema filter for our SQL querying
-						 tool and a sleek of our file upload dropzone. Notwithstanding features, I also helped the team by fixing
+						 tool and a sleek variant of our file upload dropzone. Notwithstanding features, I also worked fixing
 						  cross-compatibility and mobile issues, resolving server-side Sentry errors, and implementing A/B tests – these
 							 daily tasks consisted of tightening product polish, which bolstered by technical knowledge and instilled in me
 							  a high professional standard.</p>
 				</div>
 				<div class='expCard'>
-					<h3>The Moviegoer</h3>
+					<a name='THEMOVIEGOER'><h3>The Moviegoer</h3>
 					<span>Front-End Developer, Founder · 08.15-05.17</span>
-					<p>The Moviegoer is a student run site I founded, ran, and developed for two years.
+					<p><a href='https://pennmoviegoer.com' target='_blank'>The Moviegoer</a> is a student run site I founded, ran, and developed for two years.
 						The site itself consists of two aspects: a user facing site and CMS for use by editors.
-						In Fall of 2016, I sought to modernize both the site and app with the help of a Back-end engineer.</p>
-					<p>I worked with my Back-end engineer to develop a realistic timeline and set of requirements. We
-						planned a two-week sprint followed by two weeks of cleanup; he would take the back-end and dev. ops
+						In Fall of 2016, I sought to modernize both the site and app with the help of a Back-End Engineer.</p>
+					<p>I worked with my Back-End Engineer to develop a realistic timeline and set of requirements. We
+						planned a two-week sprint followed by two weeks of cleanup; he would take the back-end and dev ops
 						responsibilities, while I took front-end and design responsibilities. Each week leading up to and
 						throughout the sprint we met to make key design decisions. We chose to use isomorphic React to improve
 						site SEO, we integrated AWS Lambda functions into the architecture to optimally resize images, and we
@@ -98,11 +101,13 @@ title: Homepage
 						to make the site more personable and use authors as the primary form of site navigation, adding author cards
 						to the side of each article which linked back to a dedicate author page as well as adding a prominent author
 						page containing all of our writers.</p>
-					<div class='imgPlaceholder'></div>
+					<div class='imgWrapper'>
+						<img src='/assets/img/moviegoer.png'>
+					</div>
 					<p>I implemented this idea from concept to execution building wireframes and subsequently design mocks for each
 						page. During the design period, I brought on a graphic designer to assist with the development of site typography,
 						specifying not only a system of fonts, but best practice for font sizing, spacing, and coloring to improve readability.
-						I then wrote all of the Front-end code in React and CSS with the help of Bourbon Neat’s grid system.  The choice of
+						I then wrote all of the front-end code in React and CSS with the help of Bourbon Neat’s grid system. The choice of
 						Bourbon Neat over Bootstrap was made because the site’s minimalist design did not necessitate all of the features of
 						Bootstrap. Moreover, since the React architecture was selectively rendering articles that were essentially text nodes
 						(the images were loaded asynchronously after page load) Bootstrap’s large packet size would have slowed down an otherwise
@@ -110,10 +115,10 @@ title: Homepage
 						navigation was effective, cross-compatible, and responsive.</p>
 				</div>
 				<div class='expCard'>
-					<h3>CIS 197</h3>
+					<a name='CIS197'><h3>CIS 197</h3>
 					<span>Teaching Assistant · 01.17-05.17</span>
 					<div class='content'>
-						<p>CIS 197 is a technical elective taught entirely by upperclassmen with practical exposure to the subject matter.
+						<p><a href='http://www.seas.upenn.edu/~cis197/' target='_blank'>CIS 197</a> is a technical elective taught entirely by upperclassmen with practical exposure to the subject matter.
 							I took a position as a Teaching Assistant for the class both out of my passion for web development and because I valued
 							the beauty in small details – I knew that mastery of the fundamentals is essential to a successful career in software
 							development and that teaching was the best way to understand the material deeply.</p>
